@@ -1,0 +1,18 @@
+MILESTONE 1
+- creare il layout grafico della pagina in App.vue
+    - creare un componente SearchbarComponent per la searchbar in header
+    - creare più componenti da inserire nel main (verrano visualizzati all'interno di ogni componente le card relative alla categoria di appartenenza delle chiamate API)
+    - creare il componente card che verrà gestito dinamicamente grazie alle props
+
+MILESTONE 2
+- studiare le chiamate API
+    - inserire nello store.js i dati per comporre le chiamate API
+    - comporre le card sostituendo dinamicamente i valori props, le card saranno composte da (path immagine, titolo, lingua, rating, trama)
+- rendere funzionante la searchbar 
+    - attraverso l'evento keydown gestire dinamicamente la querystring della chiamata all'API (in questo modo verrano filtrati i risultati in base alla ricerca dell'utente)
+
+MILESTONE 3
+BONUS
+- aggiungere migliorie grafiche
+    - provare a far comparire un off-canvas che si aprirà quando l'utente clicca all'interno della searchbar e far comparire all'interno i risultati filtrati
+    - creare nell'header più collegamenti (effettuare presumibilmente la chiamata nei computed di ogni componente, così da averla già calcolata) e rendere visibili gli elementi solo quando si clicca sulla categoria desiderata
